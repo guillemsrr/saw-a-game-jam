@@ -1,7 +1,6 @@
 ﻿// Copyright (c) Guillem Serra. All Rights Reserved.
 
 using GameJamBase.Audio;
-using GameJamBase.Input;
 using GameJamBase.UI.View;
 using UnityEngine.InputSystem;
 
