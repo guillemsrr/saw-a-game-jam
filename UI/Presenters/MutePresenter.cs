@@ -16,7 +16,7 @@ namespace GameJamBase.UI.Presenters
             _buttonView = spatialButton;
             _buttonView.Button.onClick.AddListener(OnClick);
 
-            InputManager.Instance.MuteAction.performed += OnMute;
+            InputSystem.actions.FindAction("Mute").performed += OnMute;
         }
 
         private void OnMute(InputAction.CallbackContext obj)
