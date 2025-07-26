@@ -1,6 +1,5 @@
 ﻿// Copyright (c) Guillem Serra. All Rights Reserved.
 
-using Menu;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
