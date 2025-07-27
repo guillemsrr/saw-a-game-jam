@@ -2,6 +2,7 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 namespace GameBase.Camera
@@ -15,8 +16,9 @@ namespace GameBase.Camera
         [SerializeField] private Vector3 _offset = new Vector3(0f, 2f, 0f);
         [SerializeField] Transform _defaultTarget;
 
-        [Header("Input Actions")]
-        [SerializeField] InputAction _cameraRotationStartAction;
+        [Header("Input Actions")] [SerializeField]
+        InputAction _cameraRotationStartAction;
+
         [SerializeField] InputAction _cameraRotationAction;
         [SerializeField] InputAction _cameraZoom;
 
